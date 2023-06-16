@@ -2,11 +2,6 @@
 module.exports = {
   content: ["./*html"],
   theme: {
-
-    spacing: {
-      '32': '32rem'
-    },
-
     extend: {
       colors: {
       black: '#4A4A4A',
@@ -40,6 +35,10 @@ module.exports = {
 
     screens: {
       'telaNova': '480px'
+    },
+
+    spacing: {
+      '32': '32rem'
     },
 
   },
