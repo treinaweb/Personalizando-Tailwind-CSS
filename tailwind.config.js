@@ -2,7 +2,7 @@
 module.exports = {
   content: ["./*html"],
   theme: {
-    
+
     spacing: {
       '32': '32rem'
     },
@@ -37,6 +37,11 @@ module.exports = {
     maxHeight: {
       '70': '70%'
     },
+
+    screens: {
+      'telaNova': '480px'
+    },
+
   },
   },
   plugins: [],
